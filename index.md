@@ -3,7 +3,7 @@
 <p align="center"> Integrate previous coursework and practical experience with a focus on authentic demonstration of competencies outlined by the program. </p>
 
 <p align="center">
-<img alt="image" src="source/snhu.png" width="150" height="150" />
+<img alt="image" src="sources/snhu.png" width="150" height="150" />
 </p>
 
  Table of Contents 
