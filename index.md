@@ -11,11 +11,14 @@ Hi! I am Ronny Valtonen, I was originally born in Finland and began pursing a ba
 🔗 [GitHub](https://github.com/FinnishArmy)
 📄 [Resume](https://docs.google.com/document/d/1HQ7J6HudQm84iyurnk3WpXiCVznRwxff/edit?usp=sharing&ouid=107508688339607012837&rtpof=true&sd=true)
 
-<img alt="image" src="sources/ronny.jpg" width="225" height="300" />
+
+<img alt="image" src="sources/ronny.jpg" class="figure" width="225" height="300" />
+
 
 <p align="center">
 <img alt="image" src="sources/snhu.png" width="150" height="150" />
 </p>
+
 
 <p align="center">
 Graduated from Southern New Hampshire University in 2026 with Bachelors of Computer Science
@@ -46,8 +49,8 @@ The origin of this project is from CS-330, Computer Graphics and Visualization w
 Repo: https://github.com/FinnishArmy/Computational-Graphics-and-Visualizaiton
 
 <p align="center">
-<img alt="image" src="sources/GFXdesignBefore.png" width="300" height="300" />
-<img alt="image" src="sources/GFXdesignAfter.png" width="300" height="300" />
+<img alt="image" src="sources/GFXdesignBefore.png" class="figure" width="300" height="300" />
+<img alt="image" src="sources/GFXdesignAfter.png" class="figure" width="300" height="300" />
 </p>
 
 <h2 align="center"> Enhancement Two - Algorithms and Data Structure </h2>
@@ -58,7 +61,7 @@ Below you can see how the algorithm draws a rectangle around each detect object.
 During runtime, the program automatically calculates the number of threads it can use, if OpenCV hardware is available and attempts to utilize the GPU if available. This way the inference works on integrated systems like traffic cameras or high performance desktop computers with a dedicated graphics card.
 
 <p align="center">
-<img alt="image" src="sources/image_inference.png" width="600" height="400" />
+<img alt="image" src="sources/image_inference.png" class="figure" width="600" height="400" />
 </p>
 
 Repo: https://github.com/FinnishArmy/ML_Image_Identification
@@ -71,9 +74,9 @@ Overall, I think this project showcases my abilities to choose the correct data 
 Seen below is the functionality of loading the database, display all bids and deleting the entry from the database.
 
 <p align="center">
-<img alt="image" src="sources/menu_1.png" width="500" height="200" />
-<img alt="image" src="sources/menu_2.png" width="500" height="200" />
-<img alt="image" src="sources/menu_3.png" width="500" height="200" />
+<img alt="image" src="sources/menu_1.png" class="figure" width="500" height="200" />
+<img alt="image" src="sources/menu_2.png" class="figure" width="500" height="200" />
+<img alt="image" src="sources/menu_3.png" class="figure" width="500" height="200" />
 </p>
 
 
