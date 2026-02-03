@@ -7,18 +7,19 @@
 
 
 # Ronny Valtonen
-Hi! I am Ronny Valtonen, I was originally born in Finland and began pursing a bachelors in Computer Science. Ever since I built my first very own computer, I fell in love with technology and the back bone on how the hardware runs. I began taking computer science related classes in high-school and soon began studying computer science in Washington State University. I have coded many programs in various programing languages. I also have experience with computer hardware and have built many computers for clients that have wanted a computer for use.
+Hi! I am Ronny Valtonen, I was originally born in Finland and began pursuing a bachelors in Computer Science. Ever since I built my first very own computer, I fell in love with technology and the back bone on how the hardware runs. I began taking computer science related classes in high-school and soon began studying computer science in Washington State University. I have coded many programs in various programing languages. I also have experience with computer hardware and have built many computers for clients that have wanted a computer for use.
 
 > Focused on performance-driven systems, data structures, and secure, maintainable software.  
 > Experience with C++, Python, OpenGL, Machine Learning, and database-backed applications.
 > Work experience in hardware validation.
 
-📍 Oregon
+<img alt="image" src="sources/ronny.jpg" class="figure" width="225" height="300" />
+
+📍 Oregon, USA
 🔗 [GitHub](https://github.com/FinnishArmy)
 📄 [Resume](https://docs.google.com/document/d/1HQ7J6HudQm84iyurnk3WpXiCVznRwxff/edit?usp=sharing&ouid=107508688339607012837&rtpof=true&sd=true)
+💼 [LinkedIn](https://www.linkedin.com/in/ronny-valtonen/)
 
-
-<img alt="image" src="sources/ronny.jpg" class="figure" width="225" height="300" />
 
 
 <p align="center">
@@ -50,7 +51,9 @@ Graduated from Southern New Hampshire University in 2026 with Bachelors of Compu
 </p>
 
 <h2 align="center"> Enhancement One - Software Design / Engineering </h2>
-The origin of this project is from CS-330, Computer Graphics and Visualization which was programming in OpenGL to create a 3D scene based on a chosen 2D image.  The plan for this project enhancement was to improve the software design by utilizing more advanced lighting and shadow mapping techniques in order to create a more realistic 3D environment within the OpenGL application. In the current design, it uses the most basic form of lighting model which is Phong (LearnOpenGL). The enhancement introduces Blinn-Phong which is more realistic as well as implementing Shadow Mapping to calculate the ambient occlusions made by physical objects that occlude a light source. 
+
+The origin of this project is from CS-330, Computer Graphics and Visualization which was programming in OpenGL to create a 3D scene based on a chosen 2D image.  The plan for this project enhancement was to improve the software design by utilizing more advanced lighting and shadow mapping techniques in order to create a more realistic 3D environment within the OpenGL application. In the current design, it uses the most basic form of lighting model which is Phong (LearnOpenGL). The enhancement introduces Blinn-Phong which is more realistic as well as implementing Shadow Mapping to calculate the ambient occlusions made by physical objects that occlude a light source.
+
 
 Repo: https://github.com/FinnishArmy/Computational-Graphics-and-Visualizaiton
 
