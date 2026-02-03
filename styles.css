@@ -105,6 +105,27 @@ body {
   .page-anim .dot { animation: none; }
 }
 
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1.5rem 1.25rem;
+    margin: 1.5rem auto;
+  }
+
+  .image-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .video-frame {
+    margin: 1.5rem auto;
+  }
+
+  .page-anim {
+    opacity: 0.4;
+  }
+}
+
+
 
 
 
