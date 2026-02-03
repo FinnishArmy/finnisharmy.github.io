@@ -125,6 +125,15 @@ body {
   }
 }
 
+/* Force Playpen Sans everywhere (iOS Safari) */
+html, body,
+.main-content,
+button, input, select, textarea {
+  font-family: "Playpen Sans", system-ui, -apple-system,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+
 
 
 
