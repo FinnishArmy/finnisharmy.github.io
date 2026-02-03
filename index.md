@@ -61,8 +61,7 @@ The origin of this project is from CS-330, Computer Graphics and Visualization w
 Repo: https://github.com/FinnishArmy/Computational-Graphics-and-Visualizaiton
 
 <p align="center">
-<img alt="image" src="sources/GFXdesignBefore.png" class="figure" width="300" height="300" />
-<img alt="image" src="sources/GFXdesignAfter.png" class="figure" width="300" height="300" />
+<img alt="image" src="sources/GFXdesignBefore.png" class="figure" width="300" height="300" /> <img alt="image" src="sources/GFXdesignAfter.png" class="figure" width="300" height="300" />
 </p>
 
 <h2 align="center"> Enhancement Two - Algorithms and Data Structure </h2>

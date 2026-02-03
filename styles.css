@@ -2,7 +2,10 @@
 body {
   background-color: #fffee2;
   color: #222;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: 
+"Playpen Sans", system-ui, -apple-system, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+
   background-image:
     repeating-linear-gradient(
       0deg,
@@ -29,6 +32,21 @@ body {
   outline: 1px solid rgba(0,0,0,0.06);
 
 }
+
+
+.image-row {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* align vertically */
+  gap: 24px;                 /* space between images */
+  margin: 2rem 0;
+}
+
+.image-row img {
+  display: block;
+  border-radius: 8px;        /* optional polish */
+}
+
 
 
 /* ===== Particle background layer ===== */
