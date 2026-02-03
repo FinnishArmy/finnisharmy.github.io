@@ -30,19 +30,12 @@ The origin of this project is from CS-330, Computer Graphics and Visualization w
 
 Repo: https://github.com/FinnishArmy/Computational-Graphics-and-Visualizaiton
 
-<p align="center">
-<img alt="image" src="source/GFXdesignBefore.png" width="300" height="300" />
-<img alt="image" src="source/GFXdesignAfter.png" width="300" height="300" />
-</p>
 
 <h2 align="center"> Enhancement Two - Algorithms and Data Structure </h2>
 The origin of this project is from a machine learning course taken in Washington State University.  The purpose of the program is to feed an image through a network and properly identify objects within an image using Python.  I chose to enhance this project as it required advanced knowledge on which post-processing algorithm to utilize and having the ability to pick the highest scoring detections.  I also used it to showcase my ability to highlight the skills on algorithmic optimization.  Finally I chose this project to show my ability on using the right data structures for the right operations to increase efficiency.
 
 Below you can see how the algorithm draws a rectangle around each detect object.
 
-<p align="center">
-<img alt="image" src="source/Screenshot 2026-02-02 121607.png" width="600" height="400" />
-</p>
 
 Repo: https://github.com/FinnishArmy/ML_Image_Identification
 
@@ -52,11 +45,6 @@ The purpose of this project was to develop a binary search tree data structure i
 Overall, I think this project showcases my abilities to choose the correct data structure for databases.  Showing my ability to convert a previously implemented Binary Search Tree to a Self-Balancing Binary Search Tree highlights my skills in keeping code modular and working on previously written code.  I also showed my skills in using static code analysis tools like Clang-Tidy to reveal possible code vulnerabilities and patch ones that are not false positives as well as ignoring ones that are false positives.  I also removed many warnings that previously existed in the code from 15+ to only 1 warning that can be safely ignored.  For these reasons I believe this program enhancement matches the course outcomes for Data Structures and Algorithms.
 
 Seen below is the functionality of loading the database and deleting the entry from the database.
-
-<p align="center">
-<img alt="image" src="source/menu_1.png" width="300" height="300" />
-<img alt="image" src="source/menu_3.png" width="300" height="300" />
-</p>
 
 
 Repo: https://github.com/FinnishArmy/BST_CPP
