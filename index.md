@@ -1,4 +1,10 @@
 <link rel="stylesheet" href="styles.css">
+<script defer src="particles.js"></script>
+
+
+<!-- Floating particles background -->
+<div class="page-anim" aria-hidden="true"></div>
+
 
 # Ronny Valtonen
 Hi! I am Ronny Valtonen, I was originally born in Finland and began pursing a bachelors in Computer Science. Ever since I built my first very own computer, I fell in love with technology and the back bone on how the hardware runs. I began taking computer science related classes in high-school and soon began studying computer science in Washington State University. I have coded many programs in various programing languages. I also have experience with computer hardware and have built many computers for clients that have wanted a computer for use.
@@ -104,7 +110,7 @@ For the algorithms and data structure category, I chose my machine learning prog
 
 <break>
 
-<h3> Databased </h3>
+<h3> Databases </h3>
 <p>
 For the databases category, I included my DAD220 final project as it focuses on importing, querying and managing a structured database (CSV) using SQL concepts. The artifact highlights my ability to design and interact with relations data models, validate data, perform security checks and execute queries that support good analysis of said data. Through the enhancement process, I imrpvoed efficiency by switching to a self-balancing tree (Red-Black BST), added error handling and input validation and strengthened data integrity. These enhancements reflect a security-minded appracoh to database design. The project demonstrated my proficiency with database technology and my ability to apply database principles to real-world applications.
 </p>

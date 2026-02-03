@@ -1,6 +1,6 @@
 
 body {
-  background-color: #fcfad0;
+  background-color: #fffee2;
   color: #222;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background-image:
@@ -15,23 +15,61 @@ body {
 
 
 .figure {
-  margin: 1rem 0;
-  padding: 0.35rem;
-  background-color: #d2d0ad;
-  border-radius: 8px;
-    box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.6),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.08);
 
-    background-image:
-    repeating-linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.015),
-      rgba(0, 0, 0, 0.015) 1px,
-      transparent 1px,
-      transparent 3px
-    );
+
+  display: block;
+  padding: 2px;                 /* thin border reveal */
+  border-radius: 10px;
+  background: #fff;
+  box-shadow:
+    inset 0 1px 3px rgba(0,0,0,0.18),   /* inner recess */
+    inset 0 -1px 2px rgba(0,0,0,0.10);
+
+  /* optional: slight outer separation from the page */
+  outline: 1px solid rgba(0,0,0,0.06);
+
 }
+
+
+/* ===== Particle background layer ===== */
+.page-anim {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;     /* Don’t block clicks */
+  z-index: 1;               /* Behind content */
+  overflow: hidden;
+}
+
+/* Each particle (a tiny soft dot) */
+.page-anim .dot {
+  position: absolute;
+  width: var(--s, 4px);
+  height: var(--s, 4px);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.06);
+  filter: blur(0.2px);
+  top: var(--y, 50%);
+  left: var(--x, 50%);
+  transform: translate(-50%, -50%) translate3d(0,0,0);
+  animation: drift var(--d, 48s) linear infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+/* Slow drifting motion; actual distance is set via CSS vars */
+@keyframes drift {
+  0%   { transform: translate(-50%, -50%) translate3d(0, 0, 0); }
+  100% { transform: translate(-50%, -50%) translate3d(var(--dx, 120px), var(--dy, -160px), 0); }
+}
+
+/* Keep your content above the animation */
+.main-content { position: relative; z-index: 1; }
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .page-anim .dot { animation: none; }
+}
+
+
 
 
 
