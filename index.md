@@ -11,7 +11,7 @@
 
 
 # Ronny Valtonen
-Hi! I am Ronny Valtonen, I was originally born in Finland and began pursuing a bachelors in Computer Science. Ever since I built my first very own computer, I fell in love with technology and the back bone on how the hardware runs. I began taking computer science related classes in high-school and soon began studying computer science in Washington State University. I have coded many programs in various programing languages. I also have experience with computer hardware and have built many computers for clients that have wanted a computer for use.
+Hi! I am Ronny Valtonen, I was originally born in Finland and began pursuing a bachelors in Computer Science. Ever since I built my first very own computer, I fell in love with technology and the back bone on how the hardware runs. I began taking computer science related classes in high-school and soon began studying computer science in Washington State University. I have coded many programs in various programing languages. I also have experience with computer hardware and have vast knowledge in hardware validation from my experience at Intel.
 
 > Focused on performance-driven systems, data structures, and secure, maintainable software.  
 > Experience with C++, Python, OpenGL, Machine Learning, and database-backed applications.
