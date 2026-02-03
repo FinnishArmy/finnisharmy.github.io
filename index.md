@@ -1,6 +1,6 @@
+<link rel="stylesheet" hred="styles.css">
 # Ronny Valtonen
-
-**Computer Science Capstone | Algorithms, Databases, and Software Engineering**
+Hi! I am Ronny Valtonen, I was originally born in Finland and began pursing a bachelors in Computer Science. Ever since I built my first very own computer, I fell in love with technology and the back bone on how the hardware runs. I began taking computer science related classes in high-school and soon began studying computer science in Washington State University. I have coded many programs in various programing languages. I also have experience with computer hardware and have built many computers for clients that have wanted a computer for use.
 
 > Focused on performance-driven systems, data structures, and secure, maintainable software.  
 > Experience with C++, Python, OpenGL, Machine Learning, and database-backed applications.
