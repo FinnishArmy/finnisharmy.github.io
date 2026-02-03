@@ -1,21 +1,35 @@
-<h1 align="center"> CS-499 </h1>
-<p align="center"> Capstone </p>
-<p align="center"> Integrate previous coursework and practical experience with a focus on authentic demonstration of competencies outlined by the program. </p>
+# Ronny Valtonen
+
+**Computer Science Capstone | Algorithms, Databases, and Software Engineering**
+
+> Focused on performance-driven systems, data structures, and secure, maintainable software.  
+> Experience with C++, Python, OpenGL, Machine Learning, and database-backed applications.
+> Work experience in hardware validation.
+
+📍 Oregon
+🔗 [GitHub](https://github.com/FinnishArmy)
+📄 [Resume](https://docs.google.com/document/d/1HQ7J6HudQm84iyurnk3WpXiCVznRwxff/edit?usp=sharing&ouid=107508688339607012837&rtpof=true&sd=true)
+
+<img alt="image" src="sources/ronny.jpg" width="225" height="300" />
 
 <p align="center">
 <img alt="image" src="sources/snhu.png" width="150" height="150" />
 </p>
 
+<p align="center">
+Graduated from Southern New Hampshire University in 2026 with Bachelors of Computer Science
+</p>
+
+
+<h1 align="center"> CS499 Capstone </h1>
+
  Table of Contents 
-- [Course Description](#-course-description-)
 - [Code Review](#-code-review-)
 - [Software Design / Engineering](#enhancement-one---software-design--engineering)
 - [Algorithms and Data Structures](#enhancement-two---algorithms-and-data-structure)
 - [Databases](#enhancement-two---databases)
 - [Self Assessment](#-self-assessment-)
 
-<h2 align="center"> Course Description </h2>
-Taken in the student’s final term, the capstone course is the culminating experience for the bachelor of science in computer science. Integrate previous coursework and practical experience with a focus on authentic demonstration of competencies outlined by the program. Enhance previously submitted programming projects that demonstrate a level of mastery of the stated outcomes of their degree program in computer science.
 
 <h2 align="center"> Code Review </h2>
 
@@ -40,6 +54,8 @@ The origin of this project is from a machine learning course taken in Washington
 
 Below you can see how the algorithm draws a rectangle around each detect object.
 
+During runtime, the program automatically calculates the number of threads it can use, if OpenCV hardware is available and attempts to utilize the GPU if available. This way the inference works on integrated systems like traffic cameras or high performance desktop computers with a dedicated graphics card.
+
 <p align="center">
 <img alt="image" src="sources/image_inference.png" width="600" height="400" />
 </p>
@@ -51,17 +67,40 @@ The purpose of this project was to develop a binary search tree data structure i
 
 Overall, I think this project showcases my abilities to choose the correct data structure for databases.  Showing my ability to convert a previously implemented Binary Search Tree to a Self-Balancing Binary Search Tree highlights my skills in keeping code modular and working on previously written code.  I also showed my skills in using static code analysis tools like Clang-Tidy to reveal possible code vulnerabilities and patch ones that are not false positives as well as ignoring ones that are false positives.  I also removed many warnings that previously existed in the code from 15+ to only 1 warning that can be safely ignored.  For these reasons I believe this program enhancement matches the course outcomes for Data Structures and Algorithms.
 
-Seen below is the functionality of loading the database and deleting the entry from the database.
+Seen below is the functionality of loading the database, display all bids and deleting the entry from the database.
 
 <p align="center">
-<img alt="image" src="source/menu_1.png" width="300" height="300" />
-<img alt="image" src="source/menu_3.png" width="300" height="300" />
+<img alt="image" src="sources/menu_1.png" width="500" height="200" />
+<img alt="image" src="sources/menu_2.png" width="500" height="200" />
+<img alt="image" src="sources/menu_3.png" width="500" height="200" />
 </p>
 
 
 Repo: https://github.com/FinnishArmy/BST_CPP
 
 <h2 align="center"> Self Assessment </h2>
-Completing an ePortfolio throughout this final CS499 course has shown me everything I've personally completed. Not only does this help showcase my ability to professionaly represent my skillset as a computer scienstist, but it also showcases to myself what I have accomplished. Being able to complete an informal code review while still keeping a formal tone highlights my skills to verbally and visually deliver coherent and technically sound communications. 
 
-My enhancement one is a representation of my abilities to work on OpenGL in C++ and showcases my skills in software engineering. 
+<p>
+Completing an ePortfolio throughout this final CS499 course has shown me everything I've personally completed. Not only does this help showcase my ability to professionaly represent my skillset as a computer scienstist, but it also showcases to myself what I have accomplished. Being able to complete an informal code review while still keeping a formal tone highlights my skills to verbally and visually deliver coherent and technically sound communications.
+</p>
+
+<break>
+
+<h3> Software Design and Engineering </h3>
+<p>
+My enhancement one is a representation of my abilities to work on OpenGL in C++ and showcases my skills in software engineering. This project is a strong representation of my software design and engineering abilities as it required building a maintainable system rather than just rendering graphics. It was a structured project with having to program shaders, objects, lighting and GPU resource handling. I designed a modular architecture that separated each of these core pieces to improve scalability originally which gave me the ability to easily enhance the project when I came back. Debugging rendering pipeline issues also strengthened my ability to diagnose problems in software stacks.
+</p>
+
+<break>
+
+<h3> Algorithms and Data Structure </h3>
+<p>
+For the algorithms and data structure category, I chose my machine learning program developed during CS 260 at WSU. This demonsrates my wability to apply algorithmic principles to data-driven problems. The artifact showcases my use of arrays, lists and iterative optimization techniques to process data, train models and evaluate performance. Through the enhancements, I imrpvoed efficiency and clarity of the algorithmic logic, refactored code for better modularity and provided clear documentation of said enhancements. This reinforced my understanding of trade-offs between performance and efficiency by allowing the program to dynamically scale based on hardware capabilities.
+</p>
+
+<break>
+
+<h3> Databased </h3>
+<p>
+For the databases category, I included my DAD220 final project as it focuses on importing, querying and managing a structured database (CSV) using SQL concepts. The artifact highlights my ability to design and interact with relations data models, validate data, perform security checks and execute queries that support good analysis of said data. Through the enhancement process, I imrpvoed efficiency by switching to a self-balancing tree (Red-Black BST), added error handling and input validation and strengthened data integrity. These enhancements reflect a security-minded appracoh to database design. The project demonstrated my proficiency with database technology and my ability to apply database principles to real-world applications.
+</p>
