@@ -43,7 +43,7 @@ Graduated from Southern New Hampshire University in 2026 with Bachelors of Compu
 
 <h1 align="center"> CS499 Capstone </h1>
 
-<h3 id="toc">Table of Contents</h2>
+<h3 id="toc">Table of Contents</h3>
 <ul>
   <li><a href="#self-assessment">Self Assessment</a></li>
   <li><a href="#code-review">Code Review</a></li>
